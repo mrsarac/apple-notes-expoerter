@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		458965722D0756B200FD0EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 458965582D0756B100FD0EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4589655F2D0756B100FD0EA9;
+			remoteInfo = "apple-notes-expoerter";
+		};
+		4589657C2D0756B200FD0EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 458965582D0756B100FD0EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4589655F2D0756B100FD0EA9;
+			remoteInfo = "apple-notes-expoerter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		458965602D0756B100FD0EA9 /* apple-notes-expoerter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "apple-notes-expoerter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		458965712D0756B200FD0EA9 /* apple-notes-expoerterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apple-notes-expoerterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4589657B2D0756B200FD0EA9 /* apple-notes-expoerterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apple-notes-expoerterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		458965622D0756B100FD0EA9 /* apple-notes-expoerter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "apple-notes-expoerter";
+			sourceTree = "<group>";
+		};
+		458965742D0756B200FD0EA9 /* apple-notes-expoerterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "apple-notes-expoerterTests";
+			sourceTree = "<group>";
+		};
+		4589657E2D0756B200FD0EA9 /* apple-notes-expoerterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "apple-notes-expoerterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4589655D2D0756B100FD0EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4589656E2D0756B200FD0EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458965782D0756B200FD0EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		458965572D0756B100FD0EA9 = {
+			isa = PBXGroup;
+			children = (
+				458965622D0756B100FD0EA9 /* apple-notes-expoerter */,
+				458965742D0756B200FD0EA9 /* apple-notes-expoerterTests */,
+				4589657E2D0756B200FD0EA9 /* apple-notes-expoerterUITests */,
+				458965612D0756B100FD0EA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		458965612D0756B100FD0EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				458965602D0756B100FD0EA9 /* apple-notes-expoerter.app */,
+				458965712D0756B200FD0EA9 /* apple-notes-expoerterTests.xctest */,
+				4589657B2D0756B200FD0EA9 /* apple-notes-expoerterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4589655F2D0756B100FD0EA9 /* apple-notes-expoerter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 458965852D0756B200FD0EA9 /* Build configuration list for PBXNativeTarget "apple-notes-expoerter" */;
+			buildPhases = (
+				4589655C2D0756B100FD0EA9 /* Sources */,
+				4589655D2D0756B100FD0EA9 /* Frameworks */,
+				4589655E2D0756B100FD0EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				458965622D0756B100FD0EA9 /* apple-notes-expoerter */,
+			);
+			name = "apple-notes-expoerter";
+			packageProductDependencies = (
+			);
+			productName = "apple-notes-expoerter";
+			productReference = 458965602D0756B100FD0EA9 /* apple-notes-expoerter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		458965702D0756B200FD0EA9 /* apple-notes-expoerterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 458965882D0756B200FD0EA9 /* Build configuration list for PBXNativeTarget "apple-notes-expoerterTests" */;
+			buildPhases = (
+				4589656D2D0756B200FD0EA9 /* Sources */,
+				4589656E2D0756B200FD0EA9 /* Frameworks */,
+				4589656F2D0756B200FD0EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				458965732D0756B200FD0EA9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				458965742D0756B200FD0EA9 /* apple-notes-expoerterTests */,
+			);
+			name = "apple-notes-expoerterTests";
+			packageProductDependencies = (
+			);
+			productName = "apple-notes-expoerterTests";
+			productReference = 458965712D0756B200FD0EA9 /* apple-notes-expoerterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4589657A2D0756B200FD0EA9 /* apple-notes-expoerterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4589658B2D0756B200FD0EA9 /* Build configuration list for PBXNativeTarget "apple-notes-expoerterUITests" */;
+			buildPhases = (
+				458965772D0756B200FD0EA9 /* Sources */,
+				458965782D0756B200FD0EA9 /* Frameworks */,
+				458965792D0756B200FD0EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4589657D2D0756B200FD0EA9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4589657E2D0756B200FD0EA9 /* apple-notes-expoerterUITests */,
+			);
+			name = "apple-notes-expoerterUITests";
+			packageProductDependencies = (
+			);
+			productName = "apple-notes-expoerterUITests";
+			productReference = 4589657B2D0756B200FD0EA9 /* apple-notes-expoerterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		458965582D0756B100FD0EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4589655F2D0756B100FD0EA9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					458965702D0756B200FD0EA9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4589655F2D0756B100FD0EA9;
+					};
+					4589657A2D0756B200FD0EA9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4589655F2D0756B100FD0EA9;
+					};
+				};
+			};
+			buildConfigurationList = 4589655B2D0756B100FD0EA9 /* Build configuration list for PBXProject "apple-notes-expoerter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 458965572D0756B100FD0EA9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 458965612D0756B100FD0EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4589655F2D0756B100FD0EA9 /* apple-notes-expoerter */,
+				458965702D0756B200FD0EA9 /* apple-notes-expoerterTests */,
+				4589657A2D0756B200FD0EA9 /* apple-notes-expoerterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4589655E2D0756B100FD0EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4589656F2D0756B200FD0EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458965792D0756B200FD0EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4589655C2D0756B100FD0EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4589656D2D0756B200FD0EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458965772D0756B200FD0EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		458965732D0756B200FD0EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4589655F2D0756B100FD0EA9 /* apple-notes-expoerter */;
+			targetProxy = 458965722D0756B200FD0EA9 /* PBXContainerItemProxy */;
+		};
+		4589657D2D0756B200FD0EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4589655F2D0756B100FD0EA9 /* apple-notes-expoerter */;
+			targetProxy = 4589657C2D0756B200FD0EA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		458965832D0756B200FD0EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		458965842D0756B200FD0EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		458965862D0756B200FD0EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "apple-notes-expoerter/apple_notes_expoerter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"apple-notes-expoerter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafasarac.apple-notes-expoerter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		458965872D0756B200FD0EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "apple-notes-expoerter/apple_notes_expoerter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"apple-notes-expoerter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafasarac.apple-notes-expoerter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		458965892D0756B200FD0EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafasarac.apple-notes-expoerterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apple-notes-expoerter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/apple-notes-expoerter";
+			};
+			name = Debug;
+		};
+		4589658A2D0756B200FD0EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafasarac.apple-notes-expoerterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apple-notes-expoerter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/apple-notes-expoerter";
+			};
+			name = Release;
+		};
+		4589658C2D0756B200FD0EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafasarac.apple-notes-expoerterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "apple-notes-expoerter";
+			};
+			name = Debug;
+		};
+		4589658D2D0756B200FD0EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafasarac.apple-notes-expoerterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "apple-notes-expoerter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4589655B2D0756B100FD0EA9 /* Build configuration list for PBXProject "apple-notes-expoerter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				458965832D0756B200FD0EA9 /* Debug */,
+				458965842D0756B200FD0EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		458965852D0756B200FD0EA9 /* Build configuration list for PBXNativeTarget "apple-notes-expoerter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				458965862D0756B200FD0EA9 /* Debug */,
+				458965872D0756B200FD0EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		458965882D0756B200FD0EA9 /* Build configuration list for PBXNativeTarget "apple-notes-expoerterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				458965892D0756B200FD0EA9 /* Debug */,
+				4589658A2D0756B200FD0EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4589658B2D0756B200FD0EA9 /* Build configuration list for PBXNativeTarget "apple-notes-expoerterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4589658C2D0756B200FD0EA9 /* Debug */,
+				4589658D2D0756B200FD0EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 458965582D0756B100FD0EA9 /* Project object */;
+}
