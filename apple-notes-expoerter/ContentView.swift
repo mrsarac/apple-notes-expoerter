@@ -134,7 +134,7 @@ struct ContentView: View {
             } catch NotesExportError.permissionDenied(let message) {
                 print("Error: Permission denied - \(message)")
                 await MainActor.run {
-                    alertMessage = "Permission denied: \(message)"
+                    alertMessage = "Permission denied: \(message)\nPlease ensure you have write permissions for the selected location, or try selecting a different export location."
                     showAlert = true
                     isExporting = false
                 }

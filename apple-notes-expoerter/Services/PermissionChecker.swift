@@ -73,6 +73,8 @@ struct FilePermissions {
             info.append("  1. Check parent directory permissions")
             info.append("  2. Verify disk mounting options")
             info.append("  3. Check for extended attributes: ls -le '\(path)'")
+            info.append("  4. Ensure the directory is not locked: chflags nouchg '\(path)'")
+            info.append("  5. Check for ACLs: ls -le '\(path)' and remove if necessary: chmod -N '\(path)'")
         }
         
         return info.joined(separator: "\n")
