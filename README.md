@@ -64,3 +64,12 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is licensed under the MIT License.
+
+## Update Log
+
+### Version 1.1.0
+- Added onboarding to grant permissions.
+- Improved error handling for permission errors.
+- Updated UI to follow the latest Apple design guidelines.
+- Enhanced logging for better troubleshooting.
+- Updated README with the latest instructions and logs.

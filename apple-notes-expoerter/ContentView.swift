@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  apple-notes-expoerter
-//
-//  Created by Mustafa Saraç on 9/12/24.
-//
-
 import SwiftUI
 import EventKit
 import UniformTypeIdentifiers
@@ -186,7 +179,7 @@ struct OnboardingView: View {
             Spacer()
             
             Button(action: {
-                permissionStatus = .granted
+                requestNotesPermission()
             }) {
                 Text(onboardingSteps[currentStep].buttonTitle)
                     .frame(maxWidth: .infinity)
@@ -206,6 +199,19 @@ struct OnboardingView: View {
             buttonTitle: "Grant Access"
         )
     ]
+    
+    private func requestNotesPermission() {
+        let eventStore = EKEventStore()
+        eventStore.requestAccess(to: .reminder) { granted, error in
+            DispatchQueue.main.async {
+                if granted {
+                    permissionStatus = .granted
+                } else {
+                    permissionStatus = .denied
+                }
+            }
+        }
+    }
 }
 
 struct OnboardingStep {
