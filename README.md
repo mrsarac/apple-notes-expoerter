@@ -35,7 +35,7 @@ Apple Notes Exporter is a macOS application designed to export notes from the Ap
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/apple-notes-expoerter.git
+   git clone https://github.com/mrsarac/apple-notes-expoerter.git
    ```
 
 2. Open the project in Xcode:
@@ -56,10 +56,12 @@ Apple Notes Exporter is a macOS application designed to export notes from the Ap
 
 - Ensure you have the necessary permissions to write to the selected export directory.
 - If you encounter permission errors, try adjusting the directory permissions using the terminal.
+- The `PermissionChecker` class checks directory permissions to ensure the selected export location is writable.
+- The `checkAndCreateDirectory` method in `NotesExporter.swift` handles specific permission errors and provides detailed error messages.
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes. If you encounter any issues, please submit them via the repository's issue tracker.
 
 ## License
 
